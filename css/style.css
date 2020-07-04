@@ -1,0 +1,18 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+    height:  100vh;
+    background-color: red;
+    margin: 0;
+}
+
+#particles-js{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #262626;
+  }
