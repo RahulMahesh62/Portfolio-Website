@@ -10,7 +10,7 @@ body {
 }
 
 #particles-js{
-    height: 100%;
+    height: auto; 
     background: #262626;
   }
 
@@ -18,10 +18,6 @@ body {
 
     body {
         width: 100%;
-        height: 100%;
-    }
-
-    section {
         height: 100%;
     }
 
