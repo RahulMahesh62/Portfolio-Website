@@ -6,7 +6,7 @@ html {
 
 body {
     scroll-behavior: smooth;
-    height:  100vh;
+    height:  auto;
     background-color: red;
     margin: 0;
 }
