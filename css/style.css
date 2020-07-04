@@ -7,10 +7,11 @@ html {
 body {
     scroll-behavior: smooth;
     margin: 0;
+    height: auto;
 }
 
 #particles-js{
-    height: auto; 
+    height: 100%; 
     background: #262626;
   }
 
