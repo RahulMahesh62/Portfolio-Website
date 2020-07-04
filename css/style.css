@@ -6,15 +6,11 @@ html {
 
 body {
     scroll-behavior: smooth;
-    height:  auto;
-    background-color: red;
     margin: 0;
 }
 
 #particles-js{
     height: 100%;
-    margin: 0;
-    padding: 0;
     background: #262626;
   }
 
@@ -23,6 +19,14 @@ body {
     body {
         width: 100%;
         height: 100%;
+    }
+
+    section {
+        height: 100%;
+    }
+
+    #particles-js {
+        height: 100vh;
     }
 
 }
