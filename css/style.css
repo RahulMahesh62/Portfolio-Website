@@ -39,8 +39,6 @@ header {
     padding: 10px 10%;
 }
 
-nav {}
-
 .logo {
     cursor: pointer;
     height: 45px;
@@ -73,6 +71,9 @@ a {
     color: #e7305b;
 }
 
+
+/* Button Styles */
+
 #lgbtn {
     padding: 9px 25px;
     background-color: #e7305b;
@@ -92,6 +93,51 @@ a {
 }
 
 #lgbtn:hover {
+    background-color: #0a97b0;
+}
+
+#dgbtn {
+    padding: 9px 25px;
+    margin-right: 20px;
+    background-color: #e7305b;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+#dgbtn:hover {
+    background-color: #0a97b0;
+}
+
+#bgbtn {
+    padding: 9px 25px;
+    background-color: #e7305b;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+#bgbtn:hover {
     background-color: #0a97b0;
 }
 
@@ -129,11 +175,12 @@ section {
 }
 
 #text4 {
+    font-size: 1.2rem;
     color: #e4e3e3;
 }
 
 .lcontent {
-    margin: 17% 5% 20% 20%;
+    margin: 15% 5% 20% 15%;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -143,8 +190,13 @@ section {
 }
 
 .rf img {
+    margin: 5% 0%;
     width: 100%;
-    height: 100%;
+    height: 110%;
+}
+
+#lbtn {
+    margin: 5% 5% 2% 0%;
 }
 
 @media only screen and (max-width: 800px) {
@@ -201,6 +253,14 @@ section {
     }
     .rf img {
         display: block;
+    }
+    #dgbtn {
+        display: block;
+        margin: 10% auto;
+    }
+    #bgbtn {
+        display: block;
+        margin: 1% auto;
     }
 }
 
