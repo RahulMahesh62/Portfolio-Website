@@ -123,9 +123,13 @@ a {
     background-color: #0a97b0;
 }
 
+#lbtn {
+    margin: 70px;
+}
+
 #bgbtn {
     padding: 9px 25px;
-    background-color: #e7305b;
+    background-color: #218c74;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -142,7 +146,7 @@ a {
 }
 
 #bgbtn:hover {
-    background-color: #0a97b0;
+    background-color: #e7305b;
 }
 
 .cta {
@@ -318,7 +322,7 @@ section {
     }
     #bgbtn {
         display: block;
-        margin: 1% auto;
+        margin: 50px auto;
     }
     #prophoto {
         height: 250px;
