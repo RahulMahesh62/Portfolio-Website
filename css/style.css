@@ -172,7 +172,7 @@ section {
 
 #land {
     display: block;
-    padding-top: 170px;
+    padding-top: 165px;
 }
 
 #prophoto {
@@ -279,6 +279,9 @@ section {
     nav {
         display: none;
     }
+    #land {
+        padding-top: 45%;
+    }
     .lf {
         display: block;
         width: 100%;
@@ -320,7 +323,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 950px) {
     body {
         width: 100%;
     }
@@ -344,5 +347,12 @@ section {
         z-index: -10;
         top: 0;
         left: 0
+    }
+    section {
+        height: 100vh;
+    }
+    #prophoto {
+        width: 50%;
+        height: 50%;
     }
 }
