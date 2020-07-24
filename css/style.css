@@ -2,10 +2,10 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-    scroll-behavior: smooth;
     margin: 0;
     height: 100%;
 }
@@ -159,10 +159,45 @@ a {
 section {
     height: 100vh;
     width: 100%;
+    margin: 0px;
 }
 
 
 /* Landing section */
+
+#landing {
+    height: 100vh;
+    margin: 0;
+}
+
+#land {
+    display: block;
+    padding-top: 170px;
+}
+
+#prophoto {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    height: 270px;
+    width: 270px;
+}
+
+.sicons {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.sicons img {
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+}
 
 
 /* Home section */
@@ -218,6 +253,9 @@ section {
         width: 100%;
     }
     #particles-js {
+        height: auto;
+    }
+    section {
         height: 100vh;
     }
     #particles-js canvas {
@@ -275,6 +313,10 @@ section {
     #bgbtn {
         display: block;
         margin: 1% auto;
+    }
+    #prophoto {
+        height: 250px;
+        width: 250px;
     }
 }
 
