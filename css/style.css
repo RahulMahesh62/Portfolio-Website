@@ -248,6 +248,9 @@ section {
     margin: 5% 5% 2% 0%;
 }
 
+
+/* Mobile Responsive */
+
 @media only screen and (max-width: 800px) {
     body {
         width: 100%;
@@ -350,6 +353,9 @@ section {
     }
     section {
         height: 100vh;
+    }
+    #land {
+        padding-top: 190px;
     }
     #prophoto {
         width: 50%;
