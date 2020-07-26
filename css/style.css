@@ -180,13 +180,13 @@ section {
 /* Landing section */
 
 #landing {
-    height: 100vh;
+    height: 92vh;
     margin: 0;
 }
 
 #land {
     display: block;
-    padding-top: 160px;
+    padding-top: 150px;
 }
 
 #prophoto {
