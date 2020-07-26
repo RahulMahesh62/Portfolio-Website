@@ -35,11 +35,11 @@ body {
 
 header {
     position: sticky;
-    top: 10px;
+    top: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 5%;
+    padding: 10px 3%;
     z-index: 30;
 }
 
