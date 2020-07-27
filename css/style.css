@@ -182,7 +182,7 @@ section {
 
 #landing {
     margin: 0;
-    height: 90vh;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,7 +191,6 @@ section {
 }
 
 #land {
-    background-color: teal;
     display: block;
 }
 
