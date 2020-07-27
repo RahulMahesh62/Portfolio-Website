@@ -275,7 +275,7 @@ section {
         width: 100%;
     }
     section {
-        height: 100vh;
+        height: 0vh;
     }
     nav {
         display: none;
@@ -319,6 +319,7 @@ section {
         margin: 50px auto;
     }
     #landing {
+        height: 85vh;
         margin: -65px 0px 0px 0px;
     }
     #prophoto {
@@ -341,7 +342,8 @@ section {
         padding-top: 45%;
     }
     #landing {
-        margin: -55px 0px 0px 0px;
+        height: 90vh;
+        margin: -45px 0px 0px 0px;
     }
     .lf {
         display: block;
@@ -384,20 +386,12 @@ section {
     }
 }
 
-@media (min-width: 1150px) {
-    body {
-        width: 100%;
-    }
-    #landing {
-        margin: -55px 0px 0px 0px;
-    }
-}
-
 @media (max-width: 2050px) {
     body {
         width: 100%;
     }
     #landing {
-        margin: -55px 0px 0px 0px;
+        height: 95vh;
+        margin: -35px 0px 0px 0px;
     }
 }
