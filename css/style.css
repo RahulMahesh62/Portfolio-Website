@@ -10,6 +10,45 @@ body {
     height: 100%;
 }
 
+
+/* Preloader */
+
+.spinner-wrapper {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: url('../images/spinner2.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 999999;
+}
+
+.spinner {
+    width: 100%;
+    height: 100%;
+    background: url('../images/spinner2.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.loader {
+    background: url('../images/spinner2.gif');
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+
+/* PGB */
+
 #particles-js canvas {
     display: inline-block;
     -webkit-transform: scale(1);
@@ -272,6 +311,24 @@ section {
 
 #lbtn {
     margin: 5% 5% 2% 0%;
+}
+
+.ml9 {
+    position: relative;
+    font-weight: 100;
+    font-size: 0.2em;
+}
+
+.ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
 }
 
 
