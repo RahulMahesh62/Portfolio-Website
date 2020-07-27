@@ -16,16 +16,17 @@ body {
     -ms-transform: scale(1);
     transform: scale(1);
     opacity: 1;
-    position: fixed;
+    position: absolute;
     -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
     transition: opacity .8s ease, transform 1.4s ease
 }
 
 #particles-js {
+    display: block;
     width: 100%;
     height: 100%;
     background: #262626;
-    position: absolute;
+    position: fixed !important;
     z-index: -10;
     top: 0;
     left: 0;
@@ -36,11 +37,11 @@ body {
 
 header {
     position: sticky;
-    top: 0px;
+    top: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 3%;
+    padding: 6px 3%;
     z-index: 30;
 }
 
@@ -187,7 +188,6 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: teal;
 }
 
 #land {
@@ -274,31 +274,8 @@ section {
     body {
         width: 100%;
     }
-    #particles-js {
-        height: auto;
-        position: fixed;
-    }
     section {
         height: 100vh;
-    }
-    #particles-js canvas {
-        display: block;
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1);
-        opacity: 1;
-        position: fixed;
-        -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
-        transition: opacity .8s ease, transform 1.4s ease
-    }
-    #particles-js {
-        width: 100%;
-        height: 100%;
-        background: #262626;
-        position: fixed;
-        z-index: -10;
-        top: 0;
-        left: 0
     }
     nav {
         display: none;
@@ -342,7 +319,6 @@ section {
         margin: 50px auto;
     }
     #landing {
-        background-color: teal;
         margin: -65px 0px 0px 0px;
     }
     #prophoto {
@@ -355,31 +331,8 @@ section {
     body {
         width: 100%;
     }
-    #particles-js {
-        height: auto;
-        position: fixed;
-    }
     section {
         height: 100vh;
-    }
-    #particles-js canvas {
-        display: block;
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1);
-        opacity: 1;
-        position: fixed;
-        -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
-        transition: opacity .8s ease, transform 1.4s ease
-    }
-    #particles-js {
-        width: 100%;
-        height: 100%;
-        background: #262626;
-        position: fixed;
-        z-index: -10;
-        top: 0;
-        left: 0
     }
     nav {
         display: none;
@@ -435,27 +388,8 @@ section {
     body {
         width: 100%;
     }
-    #particles-js {
-        height: 100vh;
-    }
-    #particles-js canvas {
-        display: block;
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1);
-        opacity: 1;
-        position: fixed;
-        -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
-        transition: opacity .8s ease, transform 1.4s ease
-    }
-    #particles-js {
-        width: 100%;
-        height: 100%;
-        background: #262626;
-        position: fixed;
-        z-index: -10;
-        top: 0;
-        left: 0
+    #landing {
+        margin: -55px 0px 0px 0px;
     }
 }
 
@@ -463,26 +397,7 @@ section {
     body {
         width: 100%;
     }
-    #particles-js {
-        height: 100vh;
-    }
-    #particles-js canvas {
-        display: block;
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1);
-        opacity: 1;
-        position: fixed;
-        -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
-        transition: opacity .8s ease, transform 1.4s ease
-    }
-    #particles-js {
-        width: 100%;
-        height: 100%;
-        background: #262626;
-        position: fixed;
-        z-index: -10;
-        top: 0;
-        left: 0
+    #landing {
+        margin: -55px 0px 0px 0px;
     }
 }
