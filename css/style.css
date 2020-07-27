@@ -25,10 +25,10 @@ body {
     width: 100%;
     height: 100%;
     background: #262626;
-    position: fixed;
+    position: absolute;
     z-index: -10;
     top: 0;
-    left: 0
+    left: 0;
 }
 
 
@@ -36,7 +36,7 @@ body {
 
 header {
     position: sticky;
-    top: 5px;
+    top: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,12 +46,12 @@ header {
 
 .headerstyle {
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 120px;
+    border-radius: 220px;
     margin: 5px;
-    -webkit-border-radius: 120px;
-    -moz-border-radius: 120px;
-    -ms-border-radius: 120px;
-    -o-border-radius: 120px;
+    -webkit-border-radius: 220px;
+    -moz-border-radius: 220px;
+    -ms-border-radius: 220px;
+    -o-border-radius: 220px;
 }
 
 .logo {
@@ -181,14 +181,13 @@ section {
 /* Landing section */
 
 #landing {
-    margin: 0;
-    height: 85vh;
+    margin: -10px 0px 0px 0px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: relative;
-    margin-top: -1%;
+    background-color: teal;
 }
 
 #land {
@@ -342,6 +341,10 @@ section {
         display: block;
         margin: 50px auto;
     }
+    #landing {
+        background-color: teal;
+        margin: -65px 0px 0px 0px;
+    }
     #prophoto {
         height: 250px;
         width: 250px;
@@ -383,6 +386,9 @@ section {
     }
     #land {
         padding-top: 45%;
+    }
+    #landing {
+        margin: -55px 0px 0px 0px;
     }
     .lf {
         display: block;
