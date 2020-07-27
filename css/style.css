@@ -188,6 +188,7 @@ section {
     justify-content: center;
     flex-direction: column;
     position: relative;
+    margin-top: -4%;
 }
 
 #land {
