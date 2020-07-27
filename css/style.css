@@ -40,22 +40,22 @@ body {
 
 header {
     position: sticky;
-    top: 5px;
+    top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6px 3%;
-    z-index: 30;
+    padding: 5px 3%;
+    z-index: 300;
 }
 
 .headerstyle {
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 220px;
-    margin: 5px;
-    -webkit-border-radius: 220px;
-    -moz-border-radius: 220px;
-    -ms-border-radius: 220px;
-    -o-border-radius: 220px;
+    border-radius: 150px;
+    margin: 10px 25%;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
 }
 
 .logo {
@@ -282,6 +282,9 @@ section {
     }
     nav {
         display: none;
+    }
+    .headerstyle {
+        margin: 10px 10%;
     }
     .lf {
         display: block;
