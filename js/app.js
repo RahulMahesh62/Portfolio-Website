@@ -55,13 +55,13 @@ particlesJS('particles-js',
                 "random": true,
                 "anim": {
                     "enable": false,
-                    "speed": 12,
+                    "speed": 13,
                     "size_min": 0.1,
-                    "sync": false
+                    "sync": true
                 }
             },
             "line_linked": {
-                "enable": true,
+                "enable": false,
                 "distance": 150,
                 "color": "#ffffff",
                 "opacity": 0.2,
@@ -69,7 +69,7 @@ particlesJS('particles-js',
             },
             "move": {
                 "enable": true,
-                "speed": 3,
+                "speed": 4,
                 "direction": "none",
                 "random": false,
                 "straight": false,
