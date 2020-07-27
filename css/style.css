@@ -185,7 +185,7 @@ section {
 /* Landing section */
 
 #landing {
-    margin: -10px 0px 0px 0px;
+    margin: 0px;
     height: 95vh;
     display: flex;
     align-items: center;
@@ -340,7 +340,6 @@ section {
     }
     #landing {
         height: 90vh;
-        margin: -45px 0px 0px 0px;
     }
     .lf {
         display: block;
@@ -389,6 +388,5 @@ section {
     }
     #landing {
         height: 95vh;
-        margin: -35px 0px 0px 0px;
     }
 }
