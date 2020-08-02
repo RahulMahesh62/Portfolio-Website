@@ -291,7 +291,7 @@ section {
 }
 
 #contact {
-    height: 78vh;
+    height: 88vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -711,7 +711,7 @@ footer {
     background-color: darkcyan;
     height: 5vh;
     width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 p {
@@ -845,9 +845,4 @@ p {
     #landing {
         height: 95vh;
     }
-}
-
-
-}
-
 }
