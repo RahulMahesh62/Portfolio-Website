@@ -494,7 +494,9 @@ form {
 
 .title {
     color: #fff;
-    font-weight: 500;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     line-height: 1;
     margin-bottom: 0.7rem;
@@ -544,6 +546,14 @@ textarea.input {
 .input-container.textarea label {
     top: 1rem;
     transform: translateY(0);
+}
+
+label {
+    font-family: "Poppins", sans-serif;
+}
+
+.information p {
+    color: black;
 }
 
 .btn {
@@ -650,6 +660,7 @@ textarea.input {
 .social-icons {
     display: flex;
     margin-top: 0.5rem;
+    justify-content: center;
 }
 
 .social-icons a {
