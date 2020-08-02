@@ -299,7 +299,7 @@ section {
 }
 
 #contact {
-    height: 88vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -441,23 +441,24 @@ textarea {
 
 .form {
     width: 100%;
-    max-width: 1020px;
+    max-width: 1000px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    background-color: #364f6b;
 }
 
 .contact-form {
-    background-color: #1abc9c;
+    background-color: #fc5185;
     position: relative;
 }
 
 .circle {
     border-radius: 50%;
-    background: linear-gradient(135deg, transparent 20%, #149279);
+    background: linear-gradient(135deg, transparent 20%, #364f6b);
     position: absolute;
 }
 
@@ -480,14 +481,14 @@ textarea {
     position: absolute;
     width: 26px;
     height: 26px;
-    background-color: #1abc9c;
+    background-color: #fc5185;
     transform: rotate(45deg);
     top: 50px;
     left: -13px;
 }
 
 form {
-    padding: 2.3rem 6rem;
+    padding: 1.3rem 3rem;
     overflow: hidden;
     position: relative;
 }
@@ -502,6 +503,11 @@ form {
     margin-bottom: 0.7rem;
 }
 
+.t2 {
+    margin-bottom: 35px;
+    color: #364f6b;
+}
+
 .input-container {
     position: relative;
     margin: 1rem 0;
@@ -512,7 +518,7 @@ form {
     outline: none;
     border: 2px solid #fafafa;
     background: none;
-    padding: 0.6rem 1.2rem;
+    padding: 0.6rem 0.2rem;
     color: #fff;
     font-weight: 500;
     font-size: 0.95rem;
@@ -522,11 +528,16 @@ form {
 }
 
 textarea.input {
-    padding: 0.8rem 1.2rem;
+    padding: 0.6rem 0.2rem;
     min-height: 150px;
     border-radius: 22px;
     resize: none;
     overflow-y: auto;
+}
+
+.subtitle {
+    font-weight: 200;
+    margin-top: -10px;
 }
 
 .input-container label {
@@ -553,21 +564,26 @@ label {
 }
 
 .information p {
-    color: black;
+    color: #fc5185;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn {
-    padding: 0.6rem 1.3rem;
+    padding: 0.6rem 1.7rem;
     background-color: #fff;
     border: 2px solid #fafafa;
     font-size: 0.95rem;
-    color: #1abc9c;
+    color: #fc5185;
     line-height: 1;
     border-radius: 25px;
     outline: none;
     cursor: pointer;
+    text-align: center;
     transition: 0.3s;
-    margin: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn:hover {
@@ -595,7 +611,7 @@ label {
     opacity: 0;
     transition: 0.3s;
     height: 5px;
-    background-color: #1abc9c;
+    background-color: #fc5185;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -627,11 +643,11 @@ label {
 }
 
 .contact-info .title {
-    color: #1abc9c;
+    color: #fc5185;
 }
 
 .text {
-    color: #333;
+    color: #fff;
     text-align: justify;
     margin: 1.5rem 0 2rem 0;
 }
@@ -639,7 +655,7 @@ label {
 .information {
     display: flex;
     color: #555;
-    margin: 0.7rem 0;
+    margin: 0.1rem 0;
     align-items: center;
     font-size: 0.95rem;
 }
@@ -654,7 +670,7 @@ label {
 }
 
 .social-media p {
-    color: #333;
+    color: #fff;
 }
 
 .social-icons {
@@ -667,7 +683,7 @@ label {
     width: 35px;
     height: 35px;
     border-radius: 5px;
-    background: linear-gradient(45deg, #1abc9c, #149279);
+    background: linear-gradient(45deg, #fc5185, #149279);
     color: #fff;
     text-align: center;
     line-height: 35px;
@@ -684,7 +700,7 @@ label {
     position: absolute;
     width: 110px;
     height: 100px;
-    border: 22px solid #1abc9c;
+    border: 22px solid #fc5185;
     border-radius: 50%;
     bottom: -77px;
     right: 50px;
@@ -696,7 +712,7 @@ label {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, #1cd4af, #159b80);
+    background: linear-gradient(to bottom, #fc5185, #159b80);
     bottom: 50%;
     right: 50%;
     transform: translate(-40%, 38%);
@@ -727,14 +743,14 @@ label {
 
 footer {
     background-color: darkcyan;
-    height: 5vh;
+    height: 50px;
     width: 100%;
     margin-bottom: 0;
 }
 
 p {
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -744,7 +760,7 @@ p {
 
 /* Mobile Responsive */
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     body {
         width: 100%;
     }
@@ -775,7 +791,7 @@ p {
     }
     #text4 {
         color: #e4e3e3;
-        text-align: justify;
+        text-align: center;
     }
     .rf {
         display: block;
@@ -801,7 +817,7 @@ p {
         width: 250px;
     }
     .fcontainer {
-        padding: 1.5rem;
+        padding: 1rem;
     }
     .contact-info:before {
         display: none;
@@ -812,15 +828,15 @@ p {
     }
     form,
     .contact-info {
-        padding: 1.7rem 1.6rem;
+        padding: 1.7rem 1.2rem;
     }
     .text,
     .information,
     .social-media p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .title {
-        font-size: 1.15rem;
+        font-size: 1.5rem;
     }
     .social-icons a {
         width: 30px;
@@ -831,7 +847,7 @@ p {
         width: 23px;
     }
     .input {
-        padding: 0.45rem 1.2rem;
+        padding: 0.45rem 0rem;
     }
     .btn {
         padding: 0.45rem 1.2rem;
