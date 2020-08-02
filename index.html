@@ -23,7 +23,7 @@
     <meta name="theme-color" content="#ffffff">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Rahul Mahesh</title>
@@ -73,7 +73,7 @@
                 <div class="lcontent">
                     <h3 id="text1">Hi, my name is</h3>
                     <p id="text2" class="ml9"><span class="text-wrapper">
-                        <span class="letters">Rahul</span>
+                        <span class="letters">Rahul Mahesh</span>
                         </span>
                     </p>
                     <h2 id="text3">I build things for the web.</h2>
@@ -212,6 +212,29 @@
             hidePreloader();
         });
     </script>
+    <script>
+        $(document).ready(function() {
+
+            'use strict';
+
+            var c, currentScrollTop = 0,
+                header = $('.headerstyle');
+
+            $(window).scroll(function() {
+                var a = $(window).scrollTop();
+                var b = header.height();
+
+                currentScrollTop = a;
+
+                if (c < currentScrollTop && a > b + b) {
+                    header.addClass("scrollUp");
+                } else if (c > currentScrollTop && !(a <= b)) {
+                    header.removeClass("scrollUp");
+                }
+                c = currentScrollTop;
+            });
+
+        });
     </script>
 </body>
 
