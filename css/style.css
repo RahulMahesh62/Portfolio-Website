@@ -299,7 +299,7 @@ section {
 }
 
 #contact {
-    height: 100vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -368,7 +368,6 @@ section {
 
 #text2 {
     font-size: 3rem;
-    text-align: left;
     color: #e7305b;
 }
 
@@ -379,7 +378,6 @@ section {
 
 #text4 {
     font-size: 1.2rem;
-    text-align: left;
     color: #e4e3e3;
 }
 
@@ -442,23 +440,22 @@ textarea {
 .form {
     width: 100%;
     max-width: 1000px;
-    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #364f6b;
+    background-color: #10ac84;
 }
 
 .contact-form {
-    background-color: #fc5185;
+    background-color: #3d3d3d;
     position: relative;
 }
 
 .circle {
     border-radius: 50%;
-    background: linear-gradient(135deg, transparent 20%, #364f6b);
+    background: linear-gradient(135deg, transparent 20%, #10ac84);
     position: absolute;
 }
 
@@ -481,7 +478,7 @@ textarea {
     position: absolute;
     width: 26px;
     height: 26px;
-    background-color: #fc5185;
+    background-color: #10ac84;
     transform: rotate(45deg);
     top: 50px;
     left: -13px;
@@ -505,12 +502,12 @@ form {
 
 .t2 {
     margin-bottom: 35px;
-    color: #364f6b;
+    color: #10ac84;
 }
 
 .input-container {
     position: relative;
-    margin: 1rem 0;
+    margin: 0.7rem 0;
 }
 
 .input {
@@ -518,7 +515,7 @@ form {
     outline: none;
     border: 2px solid #fafafa;
     background: none;
-    padding: 0.6rem 0.2rem;
+    padding: 0.6rem 0.6rem;
     color: #fff;
     font-weight: 500;
     font-size: 0.95rem;
@@ -528,8 +525,8 @@ form {
 }
 
 textarea.input {
-    padding: 0.6rem 0.2rem;
-    min-height: 150px;
+    padding: 0.6rem 0.6rem;
+    min-height: 100px;
     border-radius: 22px;
     resize: none;
     overflow-y: auto;
@@ -537,7 +534,8 @@ textarea.input {
 
 .subtitle {
     font-weight: 200;
-    margin-top: -10px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .input-container label {
@@ -545,7 +543,7 @@ textarea.input {
     top: 50%;
     left: 15px;
     transform: translateY(-50%);
-    padding: 0 0.4rem;
+    padding: 0 0.8rem;
     color: #fafafa;
     font-size: 0.9rem;
     font-weight: 400;
@@ -564,8 +562,21 @@ label {
 }
 
 .information p {
-    color: #fc5185;
+    color: #3d3d3d;
     font-family: 'Montserrat', sans-serif;
+}
+
+.information img {
+    height: 20px;
+    width: 20px;
+    margin-top: 13px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.info {
+    width: 50%;
+    margin: 0 auto;
 }
 
 .btn {
@@ -573,7 +584,7 @@ label {
     background-color: #fff;
     border: 2px solid #fafafa;
     font-size: 0.95rem;
-    color: #fc5185;
+    color: #10ac84;
     line-height: 1;
     border-radius: 25px;
     outline: none;
@@ -581,6 +592,7 @@ label {
     text-align: center;
     transition: 0.3s;
     margin: 0 auto;
+    margin-top: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -597,7 +609,7 @@ label {
     left: 25px;
     transform: translateY(-50%);
     font-size: 0.8rem;
-    padding: 0 0.4rem;
+    padding: 0 1rem;
     color: transparent;
     pointer-events: none;
     z-index: 500;
@@ -611,7 +623,7 @@ label {
     opacity: 0;
     transition: 0.3s;
     height: 5px;
-    background-color: #fc5185;
+    background-color: #10ac84;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -643,34 +655,30 @@ label {
 }
 
 .contact-info .title {
-    color: #fc5185;
+    color: #3d3d3d;
 }
 
 .text {
     color: #fff;
-    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
     margin: 1.5rem 0 2rem 0;
 }
 
 .information {
     display: flex;
-    color: #555;
-    margin: 0.1rem 0;
-    align-items: center;
+    color: #3d3d3d;
     font-size: 0.95rem;
 }
 
-.icon {
-    width: 28px;
-    margin-right: 0.7rem;
-}
-
 .social-media {
-    padding: 2rem 0 0 0;
+    padding: 1rem 0 0 0;
 }
 
 .social-media p {
     color: #fff;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 
 .social-icons {
@@ -683,7 +691,7 @@ label {
     width: 35px;
     height: 35px;
     border-radius: 5px;
-    background: linear-gradient(45deg, #fc5185, #149279);
+    background: linear-gradient(45deg, #10ac84, #3d3d3d);
     color: #fff;
     text-align: center;
     line-height: 35px;
@@ -700,7 +708,7 @@ label {
     position: absolute;
     width: 110px;
     height: 100px;
-    border: 22px solid #fc5185;
+    border: 22px solid #10ac84;
     border-radius: 50%;
     bottom: -77px;
     right: 50px;
@@ -712,7 +720,7 @@ label {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, #fc5185, #159b80);
+    background: linear-gradient(to bottom, #10ac84, #3d3d3d);
     bottom: 50%;
     right: 50%;
     transform: translate(-40%, 38%);
@@ -738,23 +746,29 @@ label {
     opacity: 0.2;
 }
 
+.subtitle {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
 
 /* Footer Section */
 
 footer {
-    background-color: darkcyan;
-    height: 50px;
-    width: 100%;
-    margin-bottom: 0;
+    background-color: transparent;
+    border-radius: 50px;
+    margin: 10px 35%;
+    height: 40px;
 }
 
-p {
+footer p {
     text-align: center;
-    padding: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
+    padding: 12px 3%;
 }
 
 
@@ -817,7 +831,7 @@ p {
         width: 250px;
     }
     .fcontainer {
-        padding: 1rem;
+        padding: 1.2rem;
     }
     .contact-info:before {
         display: none;
@@ -849,15 +863,21 @@ p {
     .input {
         padding: 0.45rem 0rem;
     }
+    textarea.input {
+        padding: 0.6rem 0rem;
+    }
     .btn {
-        padding: 0.45rem 1.2rem;
+        padding: 0.75rem 1.2rem;
+    }
+    .info {
+        display: none;
     }
     #contact {
         height: auto;
     }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1250px) {
     body {
         width: 100%;
     }
@@ -909,6 +929,9 @@ p {
         height: 250px;
         width: 250px;
     }
+    .fcontainer {
+        padding: 1rem;
+    }
     .form {
         grid-template-columns: 1fr;
     }
@@ -937,6 +960,9 @@ p {
     }
     .social-media {
         padding: 1.5rem 0 0 0;
+    }
+    footer {
+        margin: 10px 5%;
     }
 }
 
