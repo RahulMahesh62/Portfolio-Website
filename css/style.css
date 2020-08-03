@@ -142,6 +142,8 @@ body {
     z-index: -1;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 
@@ -576,7 +578,7 @@ label {
 }
 
 .info {
-    width: 50%;
+    width: 45%;
     margin: 0 auto;
 }
 
