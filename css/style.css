@@ -299,7 +299,7 @@ section {
 }
 
 #contact {
-    height: 75vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -430,6 +430,7 @@ textarea {
 
 .fcontainer {
     position: relative;
+    height: auto;
     width: 100%;
     overflow: hidden;
     display: flex;
@@ -439,7 +440,7 @@ textarea {
 
 .form {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1050px;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -485,7 +486,7 @@ textarea {
 }
 
 form {
-    padding: 1.3rem 3rem;
+    padding: 1.3rem 2.5rem;
     overflow: hidden;
     position: relative;
 }
@@ -756,19 +757,17 @@ label {
 /* Footer Section */
 
 footer {
+    height: 50px;
     background-color: transparent;
-    border-radius: 50px;
-    margin: 10px 35%;
-    height: 40px;
 }
 
 footer p {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     color: #edf0f1;
-    padding: 12px 3%;
+    padding: 12px;
 }
 
 
@@ -777,9 +776,6 @@ footer p {
 @media (max-width: 500px) {
     body {
         width: 100%;
-    }
-    section {
-        height: 0vh;
     }
     nav {
         display: none;
@@ -872,9 +868,6 @@ footer p {
     .info {
         display: none;
     }
-    #contact {
-        height: auto;
-    }
 }
 
 @media (max-width: 1250px) {
@@ -888,7 +881,7 @@ footer p {
         display: none;
     }
     #landing {
-        height: 90vh;
+        height: 100vh;
     }
     .lf {
         display: block;
@@ -930,7 +923,8 @@ footer p {
         width: 250px;
     }
     .fcontainer {
-        padding: 1rem;
+        padding: 1.2rem;
+        margin: 10px;
     }
     .form {
         grid-template-columns: 1fr;
@@ -961,16 +955,17 @@ footer p {
     .social-media {
         padding: 1.5rem 0 0 0;
     }
-    footer {
-        margin: 10px 5%;
-    }
 }
 
-@media (max-width: 2050px) {
+
+/* @media (max-width: 2050px) {
     body {
         width: 100%;
     }
     #landing {
         height: 95vh;
     }
-}
+    section {
+        height: auto;
+    }
+} */
