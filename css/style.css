@@ -438,6 +438,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 45px;
 }
 
 .form {
@@ -761,9 +762,9 @@ label {
 footer {
     background-color: transparent;
     position: static;
-    height: 70px;
+    height: auto;
     bottom: 0;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .footer p {
@@ -775,12 +776,63 @@ footer {
     margin: 0;
 }
 
+#fcircle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #d63031;
+    margin: 0 auto;
+    z-index: 100;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+
+#ficon {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 20px auto;
+}
+
+#fhead {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #edf0f1;
+    margin-top: 10px;
+    margin: 0;
+}
+
+footer .sicons {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2px auto;
+}
+
+footer .sicons img {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+
 #f1 {
-    padding: 10px 12px 0px 12px;
+    padding: 7px 12px 2px 12px;
 }
 
 #f2 {
-    padding: 0px 12px 12px 12px;
+    padding: 0px 12px 7px 12px;
+}
+
+.ftrbox {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    margin: 10px 10%;
 }
 
 
