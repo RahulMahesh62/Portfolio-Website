@@ -777,8 +777,8 @@ footer {
 }
 
 #fcircle {
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
     background-color: #d63031;
     margin: 0 auto;
@@ -791,10 +791,12 @@ footer {
 }
 
 #ficon {
-    font-size: 25px;
+    font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    margin: 20px auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #fhead {
