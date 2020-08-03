@@ -302,6 +302,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: auto;
 }
 
 
@@ -756,17 +757,28 @@ label {
 /* Footer Section */
 
 footer {
-    height: 50px;
     background-color: transparent;
+    position: static;
+    height: 70px;
+    bottom: 0;
+    margin-top: 20px;
 }
 
-footer p {
+.footer p {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     color: #edf0f1;
-    padding: 12px;
+    margin: 0;
+}
+
+#f1 {
+    padding: 10px 12px 0px 12px;
+}
+
+#f2 {
+    padding: 0px 12px 12px 12px;
 }
 
 
@@ -946,15 +958,11 @@ footer p {
     }
 }
 
-
-/* @media (max-width: 2050px) {
+@media (min-width: 1950px) {
     body {
         width: 100%;
     }
-    #landing {
-        height: 95vh;
-    }
     section {
-        height: auto;
+        height: 100vh;
     }
-} */
+}
