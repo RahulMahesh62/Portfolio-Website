@@ -299,7 +299,6 @@ section {
 }
 
 #contact {
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -818,10 +817,6 @@ footer p {
         display: block;
         margin: 50px auto;
     }
-    #landing {
-        height: 85vh;
-        margin: -65px 0px 0px 0px;
-    }
     #prophoto {
         height: 250px;
         width: 250px;
@@ -874,14 +869,8 @@ footer p {
     body {
         width: 100%;
     }
-    section {
-        height: 100vh;
-    }
     nav {
         display: none;
-    }
-    #landing {
-        height: 100vh;
     }
     .lf {
         display: block;
