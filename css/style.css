@@ -433,8 +433,16 @@ section {
     font-family: 'Open Sans', sans-serif;
 }
 
+#interests {
+    margin: 10px 0px;
+}
+
 
 /* Projects Section */
+
+#projects {
+    margin: 10px 0px;
+}
 
 
 /* Contact Section */
