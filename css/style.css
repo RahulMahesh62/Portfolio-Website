@@ -150,7 +150,7 @@ body {
 /* Header and Nav */
 
 header {
-    position: sticky;
+    position: static;
     top: 10px;
     display: flex;
     justify-content: space-between;
@@ -817,10 +817,9 @@ footer {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     color: #edf0f1;
-    margin-top: 10px;
-    margin: 0;
+    margin: 10px 0px;
 }
 
 footer .sicons {
