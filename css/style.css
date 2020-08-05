@@ -150,7 +150,7 @@ body {
 /* Header and Nav */
 
 header {
-    position: sticky;
+    position: static;
     top: 10px;
     display: flex;
     justify-content: space-between;
@@ -433,8 +433,16 @@ section {
     font-family: 'Open Sans', sans-serif;
 }
 
+#interests {
+    margin: 10px 0px;
+}
+
 
 /* Projects Section */
+
+#projects {
+    margin: 10px 0px;
+}
 
 
 /* Contact Section */
@@ -766,6 +774,7 @@ label {
 
 .subtitle {
     font-family: "Poppins", sans-serif;
+    font-size: 14px;
     text-align: center;
     color: #fff;
 }
@@ -817,10 +826,9 @@ footer {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     color: #edf0f1;
-    margin-top: 10px;
-    margin: 0;
+    margin: 10px 0px;
 }
 
 footer .sicons {
