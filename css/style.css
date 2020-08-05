@@ -305,6 +305,7 @@ section {
     align-items: center;
     justify-content: center;
     height: auto;
+    background-color: tomato;
 }
 
 
@@ -312,7 +313,7 @@ section {
 
 #landing {
     margin: 0px;
-    height: 95vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -438,7 +439,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 45px;
+    margin-bottom: 10px;
 }
 
 .form {
@@ -764,7 +765,7 @@ footer {
     position: static;
     height: auto;
     bottom: 0;
-    margin-top: 35px;
+    margin-top: 10px;
 }
 
 .footer p {
