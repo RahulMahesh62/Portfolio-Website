@@ -466,12 +466,16 @@ textarea {
 .form {
     width: 100%;
     max-width: 1050px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #10ac84;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .contact-form {
@@ -918,9 +922,6 @@ footer .sicons img {
         height: 250px;
         width: 250px;
     }
-    .fcontainer {
-        padding: 1.2rem;
-    }
     .contact-info:before {
         display: none;
     }
@@ -1005,12 +1006,15 @@ footer .sicons img {
         height: 250px;
         width: 250px;
     }
-    .fcontainer {
-        padding: 1.2rem;
-        margin: 10px;
-    }
     .form {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 0;
         grid-template-columns: 1fr;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
     }
     .contact-info:before {
         bottom: initial;
