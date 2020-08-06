@@ -960,6 +960,20 @@ footer .sicons img {
     }
 }
 
+@media (max-width: 950px) {
+    .form {
+        max-width: 100%;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    .fcontainer {
+        padding: 1.2rem;
+    }
+}
+
 @media (max-width: 1250px) {
     body {
         width: 100%;
@@ -1008,13 +1022,7 @@ footer .sicons img {
     }
     .form {
         width: 100%;
-        max-width: 100%;
-        border-radius: 0;
         grid-template-columns: 1fr;
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
-        -ms-border-radius: 0;
-        -o-border-radius: 0;
     }
     .contact-info:before {
         bottom: initial;
