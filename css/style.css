@@ -601,8 +601,15 @@ label {
 }
 
 .info {
-    width: 45%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info iframe {
+    height: 100%;
+    width: 100%;
 }
 
 .btn {
@@ -688,7 +695,7 @@ label {
     color: #fff;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    margin: 1.5rem 0 2rem 0;
+    margin: 1.5rem 0 1rem 0;
 }
 
 .information {
@@ -950,9 +957,6 @@ footer .sicons img {
     .btn {
         padding: 0.75rem 1.2rem;
     }
-    .info {
-        display: none;
-    }
 }
 
 @media (max-width: 1250px) {
@@ -1033,6 +1037,10 @@ footer .sicons img {
     }
     .social-media {
         padding: 1.5rem 0 0 0;
+    }
+    .info iframe {
+        height: 100%;
+        width: 100%;
     }
 }
 
