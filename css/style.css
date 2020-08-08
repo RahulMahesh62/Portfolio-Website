@@ -980,10 +980,10 @@ footer .sicons img {
     .rf {
         display: block;
         width: 100%;
+        padding-right: 0.9rem;
     }
     .rf img {
         display: block;
-        padding: 0.5rem 1.7rem 0.5rem 0rem;
     }
     #dgbtn {
         display: block;
