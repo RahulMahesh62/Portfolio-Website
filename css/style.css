@@ -292,6 +292,16 @@ a {
 }
 
 
+/* Progress Bar */
+
+.progress {
+    position: fixed;
+    top: 0;
+    height: 5px;
+    background-color: red;
+}
+
+
 /* Section Styles */
 
 section {
