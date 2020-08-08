@@ -312,6 +312,11 @@ section {
     margin: 10px 0px 0px 0px;
 }
 
+#projects {
+    height: auto;
+    margin: 25px 0px;
+}
+
 
 /* Landing section */
 
@@ -447,7 +452,55 @@ section {
 /* Projects Section */
 
 #projects {
-    margin: 10px 0px;
+    margin: 10px 0px 35px 0px;
+}
+
+.secondhead {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    color: #edf0f1;
+    margin: 30px 0px;
+    padding: 20px;
+}
+
+.sgallery {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.snav {
+    padding: 25px 0px;
+    margin-bottom: 20px;
+}
+
+.snav a {
+    margin-right: 5px;
+    text-decoration: none;
+    border: 2px solid #ccc;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #16a085;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.snav a.actv {
+    background-color: #16a085;
+    border-color: #16a085;
+    color: #fff;
+}
+
+.imgcont div {
+    display: inline-block;
+}
+
+.imgcont img {
+    margin: 6px;
+    width: 400px;
+    height: 250px;
 }
 
 
@@ -696,7 +749,7 @@ label {
 
 .text {
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
     margin: 0.7rem 0rem;
 }
@@ -825,7 +878,7 @@ footer {
 
 #fhead {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #edf0f1;
@@ -855,9 +908,9 @@ footer .sicons img {
 }
 
 .ftrbox {
-    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50px;
-    margin: 10px 10%;
+    margin: 10px 10% 15px 10%;
+    background-color: rgba(255, 255, 255, 0.040);
 }
 
 
@@ -996,6 +1049,15 @@ footer .sicons img {
     #prophoto {
         height: 250px;
         width: 250px;
+    }
+    .imgcont div {
+        display: block;
+        width: 100%;
+    }
+    .imgcont img {
+        margin: 8px;
+        width: 80%;
+        height: 80%;
     }
     .form {
         width: 100%;
