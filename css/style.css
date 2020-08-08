@@ -379,12 +379,12 @@ section {
 }
 
 #text2 {
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: #e7305b;
 }
 
 #text3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #ff847c;
 }
 
@@ -437,7 +437,7 @@ section {
 /* Interests Section */
 
 .sechead {
-    margin: 10px;
+    margin: 15px;
     text-align: center;
     font-size: 2rem;
     color: white;
@@ -452,7 +452,7 @@ section {
 /* Projects Section */
 
 #projects {
-    margin: 10px 0px 35px 0px;
+    margin: 10px 0px 60px 0px;
 }
 
 .secondhead {
@@ -462,6 +462,10 @@ section {
     color: #edf0f1;
     margin: 30px 0px;
     padding: 20px;
+}
+
+.sbtn {
+    cursor: pointer;
 }
 
 .sgallery {
