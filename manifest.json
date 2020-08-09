@@ -1,7 +1,7 @@
 {
     "name": "Rahul Mahesh",
     "short_name": "RahulMahesh",
-    "start_url": "http://rahulmahesh.me/portfolio-website/",
+    "start_url": "http://rahulmahesh.me/portfolio-website/index.html",
     "display": "standalone",
     "background_color": "#2A3443",
     "orientation": "portrait-primary",
