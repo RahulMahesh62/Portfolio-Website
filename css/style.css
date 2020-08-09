@@ -150,7 +150,7 @@ body {
 /* Header and Nav */
 
 header {
-    position: static;
+    position: sticky;
     top: 10px;
     display: flex;
     justify-content: space-between;
@@ -160,7 +160,7 @@ header {
 }
 
 .headerstyle {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.03);
     border-radius: 50px;
     margin: 10px 20%;
     -webkit-border-radius: 50px;
@@ -292,16 +292,6 @@ a {
 }
 
 
-/* Progress Bar */
-
-.progress {
-    position: fixed;
-    top: 0;
-    height: 5px;
-    background-color: red;
-}
-
-
 /* Section Styles */
 
 section {
@@ -332,7 +322,7 @@ section {
 
 #landing {
     margin: 0px;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -358,7 +348,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 30px auto;
+    margin: 30px auto 0;
 }
 
 .sicons img {
@@ -384,12 +374,12 @@ section {
 }
 
 #text1 {
-    font-size: 1.4rem;
+    font-size: 2rem;
     color: #e4e3e3;
 }
 
 #text2 {
-    font-size: 2.4rem;
+    font-size: 4rem;
     color: #e7305b;
 }
 
@@ -410,15 +400,16 @@ section {
 
 .rf {
     float: right;
-    width: 50%;
+    width: 49%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 60px 5px 60px;
 }
 
 .rf img {
     width: 100%;
-    height: 90%;
+    height: 60%;
 }
 
 #lbtn {
@@ -1024,6 +1015,9 @@ footer .sicons img {
     nav {
         display: none;
     }
+    #landing {
+        height: 90vh;
+    }
     .lf {
         display: block;
         width: 100%;
@@ -1047,7 +1041,6 @@ footer .sicons img {
     .rf {
         display: block;
         width: 100%;
-        padding-right: 0.9rem;
     }
     .rf img {
         display: block;
