@@ -7,9 +7,9 @@
             "sizes": "192x192"
         },
         {
-            "src": "favicon/apple-icon-57x57.png",
+            "src": "favicon/favicon/ms-icon-310x310.png",
             "type": "image/png",
-            "sizes": "57x57"
+            "sizes": "310x310"
         }
     ],
     "start_url": "/index.html",
