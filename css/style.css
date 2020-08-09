@@ -160,7 +160,7 @@ header {
 }
 
 .headerstyle {
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(255, 255, 255, 0.040);
     border-radius: 50px;
     margin: 10px 20%;
     -webkit-border-radius: 50px;
@@ -438,9 +438,10 @@ section {
 /* Interests Section */
 
 .sechead {
-    margin: 15px;
+    margin: 5px;
+    padding: 35px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
