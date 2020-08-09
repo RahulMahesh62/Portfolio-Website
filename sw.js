@@ -1,25 +1,20 @@
-const dynamicCacheName = 'site-dynamic-v1';
-// activate event
-self.addEventListener('activate', evt => {
-    evt.waitUntil(
-        caches.keys().then(keys => {
-            return Promise.all(keys
-                .filter(key => key !== dynamicCacheName)
-                .map(key => caches.delete(key))
-            );
-        })
-    );
+// On install - caching the application shell
+self.addEventListener('install', function(event) {
+  event.waitUntil(
+    caches.open('sw-cache').then(function(cache) {
+      // cache any static files that make up the application shell
+      return cache.add('index.html');
+    })
+  );
 });
-// fetch event
-self.addEventListener('fetch', evt => {
-    evt.respondWith(
-        caches.match(evt.request).then(cacheRes => {
-            return cacheRes || fetch(evt.request).then(fetchRes => {
-                return caches.open(dynamicCacheName).then(cache => {
-                    cache.put(evt.request.url, fetchRes.clone());
-                    return fetchRes;
-                })
-            });
-        })
-    );
+
+// On network request
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    // Try the cache
+    caches.match(event.request).then(function(response) {
+      //If response found return it, else fetch again
+      return response || fetch(event.request);
+    })
+  );
 });
