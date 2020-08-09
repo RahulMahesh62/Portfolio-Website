@@ -1,5 +1,6 @@
 {
     "git.ignoreLimitWarning": true,
     "liveServer.settings.port": 5502,
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "liveServer.settings.multiRootWorkspaceName": "portfolio-website"
 }
