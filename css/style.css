@@ -160,7 +160,7 @@ header {
 }
 
 .headerstyle {
-    background-color: rgba(255, 255, 255, 0.040);
+    background-color: rgba(255, 255, 255, .1);
     border-radius: 50px;
     margin: 10px 20%;
     -webkit-border-radius: 50px;
@@ -525,7 +525,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 7px;
+    margin-bottom: 20px;
 }
 
 .form {
@@ -718,7 +718,7 @@ label {
     opacity: 0;
     transition: 0.3s;
     height: 5px;
-    background-color: #10ac84;
+    background-color: #3d3d3d;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -856,7 +856,7 @@ footer {
     position: static;
     height: auto;
     bottom: 0;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .footer p {
@@ -869,8 +869,8 @@ footer {
 }
 
 #fcircle {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background-color: #d63031;
     margin: 0 auto;
@@ -880,6 +880,14 @@ footer {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     cursor: pointer;
+}
+
+#fcircle img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
 }
 
 #fhead {
@@ -916,13 +924,13 @@ footer .sicons img {
 .ftrbox {
     border-radius: 50px;
     margin: 10px 10% 15px 10%;
-    background-color: rgba(255, 255, 255, 0.040);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 
 /* Mobile Responsive */
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     body {
         width: 100%;
     }
@@ -930,7 +938,7 @@ footer .sicons img {
         display: none;
     }
     .headerstyle {
-        margin: 10px 10%;
+        margin: 10px 15%;
     }
     .lf {
         display: block;
