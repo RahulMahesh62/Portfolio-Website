@@ -160,7 +160,7 @@ header {
 }
 
 .headerstyle {
-    background-color: rgba(255, 255, 255, .1);
+    background-color: rgba(255, 255, 255, .04);
     border-radius: 50px;
     margin: 10px 20%;
     -webkit-border-radius: 50px;
@@ -472,7 +472,7 @@ section {
 
 .sgallery {
     text-align: center;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .snav {
@@ -755,7 +755,7 @@ label {
 
 .text {
     color: #fff;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin: 0.7rem 0rem;
 }
@@ -892,7 +892,7 @@ footer {
 
 #fhead {
     text-align: center;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #edf0f1;
@@ -924,7 +924,7 @@ footer .sicons img {
 .ftrbox {
     border-radius: 50px;
     margin: 10px 10% 15px 10%;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.04);
 }
 
 
