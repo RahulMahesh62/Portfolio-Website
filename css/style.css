@@ -1,3 +1,4 @@
+@import url('./font.css');
 html {
     margin: 0;
     padding: 0;
@@ -480,6 +481,7 @@ section {
 }
 
 #text4 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     color: #e4e3e3;
 }
@@ -605,7 +607,7 @@ section {
 
 input,
 textarea {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .fcontainer {
@@ -719,7 +721,7 @@ textarea.input {
 }
 
 .subtitle {
-    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 5px;
     text-align: center;
 }
@@ -793,6 +795,7 @@ label {
     position: absolute;
     top: 0;
     left: 25px;
+    font-family: 'Montserrat', sans-serif;
     transform: translateY(-50%);
     font-size: 0.8rem;
     padding: 0 1rem;
@@ -846,7 +849,7 @@ label {
 
 .text {
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin: 0.7rem 0rem;
 }
@@ -984,7 +987,7 @@ footer {
 
 #fhead {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #edf0f1;
