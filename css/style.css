@@ -379,7 +379,7 @@ section {
 }
 
 #text2 {
-    font-size: 4rem;
+    font-size: 2.7rem;
     color: #e7305b;
 }
 
@@ -1086,7 +1086,7 @@ footer .sicons img {
         grid-template-columns: 1fr;
     }
     .fcontainer {
-        padding: 1.3rem;
+        padding: 1.4rem;
     }
     .contact-info:before {
         bottom: initial;
