@@ -20,3 +20,30 @@ inputs.forEach((input) => {
 function scrollToTop() {
     $(window).scrollTop(0);
 }
+
+$(document).ready(function() {
+    $(".sbtn").click(function() {
+        var name = $(this).attr("data-filter");
+        if (name == "all") {
+            $(".filter").show("2000");
+        } else {
+            $(".filter").not("." + name).hide("2000");
+            $(".filter").filter("." + name).show("2000");
+        }
+    });
+    $(".snav a").click(function() {
+        $(this).addClass("actv").siblings().removeClass("actv");
+    });
+});
+
+document.querySelector('.toggle').addEventListener('click', function() {
+    this.classList.add('animate');
+
+    setTimeout(() => {
+        this.classList.toggle('active');
+        document.querySelector('.wave').classList.toggle('active');
+        document.documentElement.classList.toggle('theme-dark');
+    }, 150);
+
+    setTimeout(() => this.classList.remove('animate'), 300);
+});
