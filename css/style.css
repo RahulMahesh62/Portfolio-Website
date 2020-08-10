@@ -785,9 +785,6 @@ label {
 .social-icons a {
     width: 35px;
     height: 35px;
-    border-radius: 5px;
-    background: linear-gradient(45deg, #10ac84, #3d3d3d);
-    color: #fff;
     text-align: center;
     line-height: 35px;
     margin-right: 0.5rem;
@@ -795,7 +792,11 @@ label {
 }
 
 .social-icons a:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 .contact-info:before {
