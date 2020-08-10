@@ -3,10 +3,10 @@
 .toggle {
     position: fixed;
     cursor: pointer;
-    top: 15px;
+    top: 12px;
     right: 20px;
     z-index: 10;
-    font-size: 250%;
+    font-size: 225%;
 }
 
 .toggle:before {
@@ -18,8 +18,8 @@
 }
 
 .toggle.animate {
-    animation: animate .3s cubic-bezier(0.4, 0.0, 0.2, 1);
-    -webkit-animation: animate .2s cubic-bezier(0.4, 0.0, 0.2, 1);
+    animation: animate .4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    -webkit-animation: animate .4s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 @media (max-width: 550px) {
@@ -43,11 +43,11 @@
     display: block;
     z-index: -1;
     box-shadow: 0 0 0 0 #000000;
-    transition: box-shadow .2s cubic-bezier(0.4, 0.0, 0.2, 1);
-    -webkit-transition: box-shadow .2s cubic-bezier(0.4, 0.0, 0.2, 1);
-    -moz-transition: box-shadow .2s cubic-bezier(0.4, 0.0, 0.2, 1);
-    -ms-transition: box-shadow .2s cubic-bezier(0.4, 0.0, 0.2, 1);
-    -o-transition: box-shadow .2s cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition: box-shadow .4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    -webkit-transition: box-shadow .4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    -moz-transition: box-shadow .4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    -ms-transition: box-shadow .4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    -o-transition: box-shadow .4s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 .wave.active {

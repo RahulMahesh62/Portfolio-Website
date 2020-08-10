@@ -160,7 +160,7 @@ header {
 }
 
 .headerstyle {
-    background-color: rgba(255, 255, 255, .04);
+    background-color: rgba(255, 255, 255, .07);
     border-radius: 50px;
     margin: 10px 20%;
     -webkit-border-radius: 50px;
@@ -924,7 +924,7 @@ footer .sicons img {
 .ftrbox {
     border-radius: 50px;
     margin: 10px 10% 15px 10%;
-    background-color: rgba(255, 255, 255, 0.04);
+    background-color: rgba(255, 255, 255, 0.07);
 }
 
 
