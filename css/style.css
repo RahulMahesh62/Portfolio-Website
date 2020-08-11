@@ -180,11 +180,11 @@ html {
 }
 
 .toggle:before {
-    content: '☀️';
+    content: '🌞';
 }
 
 .toggle.active:before {
-    content: '🌒';
+    content: '🌙';
 }
 
 .toggle.animate {
