@@ -14,7 +14,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 particlesJS("particles-js", {
     "particles": {
         "number": {
-            "value": 444,
+            "value": 500,
             "density": {
                 "enable": true,
                 "value_area": 789.1476416322727
@@ -43,7 +43,7 @@ particlesJS("particles-js", {
             "random": false,
             "anim": {
                 "enable": true,
-                "speed": 0.2,
+                "speed": 0.25,
                 "opacity_min": 0,
                 "sync": false
             }
@@ -53,7 +53,7 @@ particlesJS("particles-js", {
             "random": true,
             "anim": {
                 "enable": true,
-                "speed": 2,
+                "speed": 2.5,
                 "size_min": 0,
                 "sync": false
             }
