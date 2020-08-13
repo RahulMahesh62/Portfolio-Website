@@ -11,13 +11,14 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
+
 particlesJS("particles-js", {
     "particles": {
         "number": {
-            "value": 500,
+            "value": 200,
             "density": {
                 "enable": true,
-                "value_area": 789.1476416322727
+                "value_area": 800
             }
         },
         "color": {
@@ -25,49 +26,25 @@ particlesJS("particles-js", {
         },
         "shape": {
             "type": "circle",
-            "stroke": {
-                "width": 0,
-                "color": "#000000"
-            },
-            "polygon": {
-                "nb_sides": 5
-            },
-            "image": {
-                "src": "img/github.svg",
-                "width": 100,
-                "height": 100
-            }
         },
         "opacity": {
-            "value": 0.48927153781200905,
-            "random": false,
-            "anim": {
-                "enable": true,
-                "speed": 0.25,
-                "opacity_min": 0,
-                "sync": false
-            }
+            "value": 0,
+            "random": false
         },
         "size": {
             "value": 2,
-            "random": true,
+            "random": false,
             "anim": {
-                "enable": true,
-                "speed": 2.5,
-                "size_min": 0,
-                "sync": false
+                "enable": false
             }
         },
         "line_linked": {
-            "enable": false,
-            "distance": 140,
-            "color": "#ffffff",
-            "opacity": 0.4,
-            "width": 1
+            "enable": true,
+            "opacity": 0.2
         },
         "move": {
             "enable": true,
-            "speed": 0.2,
+            "speed": 1,
             "direction": "none",
             "random": true,
             "straight": false,
@@ -88,34 +65,17 @@ particlesJS("particles-js", {
                 "mode": "bubble"
             },
             "onclick": {
-                "enable": true,
-                "mode": "push"
+                "enable": false
             },
             "resize": true
         },
         "modes": {
-            "grab": {
-                "distance": 400,
-                "line_linked": {
-                    "opacity": 1
-                }
-            },
             "bubble": {
-                "distance": 83.91608391608392,
-                "size": 1,
-                "duration": 3,
+                "distance": 200,
+                "size": 2,
+                "duration": 2,
                 "opacity": 1,
                 "speed": 3
-            },
-            "repulse": {
-                "distance": 200,
-                "duration": 0.4
-            },
-            "push": {
-                "particles_nb": 4
-            },
-            "remove": {
-                "particles_nb": 2
             }
         }
     },

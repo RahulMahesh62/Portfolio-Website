@@ -137,7 +137,7 @@ body {
     display: block;
     width: 100%;
     height: 150%;
-    background: #0f4c75;
+    background: #24242b;
     position: fixed;
     z-index: -1;
     top: 0;
@@ -241,7 +241,7 @@ html {
 /* Header and Nav */
 
 header {
-    position: sticky;
+    position: static;
     top: 10px;
     display: flex;
     justify-content: space-between;
@@ -258,14 +258,6 @@ header {
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
-}
-
-.scrollUp {
-    transform: translateY(-80px);
-    -webkit-transform: translateY(-80px);
-    -moz-transform: translateY(-80px);
-    -ms-transform: translateY(-80px);
-    -o-transform: translateY(-80px);
 }
 
 .logo {
@@ -412,9 +404,9 @@ section {
 /* HR */
 
 hr {
-    border: dotted #eeeeee 7px;
+    border: dotted #eeeeee 6px;
     border-bottom: none;
-    width: 4%;
+    width: 3%;
     margin: 40px auto;
 }
 
@@ -739,22 +731,8 @@ textarea {
 
 .circle {
     border-radius: 50%;
-    background: linear-gradient(135deg, transparent 20%, #10ac84);
+    background: #3d3d3d;
     position: absolute;
-}
-
-.circle.one {
-    width: 130px;
-    height: 130px;
-    top: 130px;
-    right: -40px;
-}
-
-.circle.two {
-    width: 80px;
-    height: 80px;
-    top: 10px;
-    right: 30px;
 }
 
 .contact-form:before {
@@ -762,7 +740,7 @@ textarea {
     position: absolute;
     width: 26px;
     height: 26px;
-    background-color: #10ac84;
+    background-color: #3d3d3d;
     transform: rotate(45deg);
     top: 50px;
     left: -13px;
@@ -1005,7 +983,7 @@ label {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, #10ac84, #3d3d3d);
+    background: #3d3d3d;
     bottom: 50%;
     right: 50%;
     transform: translate(-40%, 38%);
