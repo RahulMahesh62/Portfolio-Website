@@ -65,3 +65,19 @@ function menuToggle() {
     var mnav = document.getElementById('toggle-icon');
     mnav.classList.toggle('actva');
 }
+
+
+$(document).ready(function() {
+    $(".tech-grid").hide();
+    $(".hidebtn").hide();
+    $(".showbtn").click(function() {
+        $(".showbtn").hide();
+        $(".hidebtn").show();
+        $(".tech-grid").show();
+    });
+    $(".hidebtn").click(function() {
+        $(".showbtn").show();
+        $(".hidebtn").hide();
+        $(".tech-grid").hide();
+    });
+});
