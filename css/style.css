@@ -1100,16 +1100,15 @@ footer .sicons img {
 
 #menu-overlay {
     position: fixed;
+    height: 100vh;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    display: flex;
-    justify-content: center;
+    display: float;
     background-color: #000000;
-    opacity: 1;
-    align-items: center;
-    overflow-y: auto;
+    opacity: 1.1;
+    z-index: 10000;
     transform: scale(0);
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -1122,19 +1121,47 @@ footer .sicons img {
     -o-transition: 0.2s;
 }
 
+.lp {
+    float: left;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lp img {
+    border-radius: 50%;
+    width: 275px;
+    height: 275px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.rp {
+    float: right;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #menu-overlay ul {
-    position: relative;
+    padding: 10px;
 }
 
 #menu-overlay ul li {
-    position: relative;
     text-align: center;
     display: block;
 }
 
 #menu-overlay ul li a {
     position: relative;
-    font-size: 2.4em;
+    text-align: center;
+    font-size: 50px;
     margin: 10px 0px;
     display: inline-block;
 }
@@ -1152,7 +1179,7 @@ footer .sicons img {
     cursor: pointer;
     top: 12px;
     left: 20px;
-    z-index: 10;
+    z-index: 11000;
     font-size: 225%;
 }
 
@@ -1256,6 +1283,46 @@ footer .sicons img {
     .btn {
         padding: 0.75rem 1.2rem;
     }
+    .lp img {
+        border-radius: 50%;
+        width: 225px;
+        height: 225px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    #menu-overlay ul li a {
+        font-size: 35px;
+    }
+    .lp {
+        height: 40%;
+    }
+    .rp {
+        height: 60%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #menu-overlay {
+        height: 100%;
+    }
+    .rp {
+        display: block;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .lp {
+        display: block;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 1250px) {
@@ -1264,9 +1331,6 @@ footer .sicons img {
     }
     nav {
         display: none;
-    }
-    #landing {
-        height: 90vh;
     }
     .lf {
         display: block;
