@@ -554,7 +554,7 @@ hr {
 }
 
 .skill {
-    border: 2px solid #ffffff;
+    border: 2px solid transparent;
     margin: 10px 5px;
     width: 28%;
     height: auto;
