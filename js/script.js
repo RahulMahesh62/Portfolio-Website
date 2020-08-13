@@ -58,3 +58,10 @@ document.querySelector('.toggle').addEventListener('click', function() {
 
     setTimeout(() => this.classList.remove('animate'), 300);
 });
+
+function menuToggle() {
+    var mnav = document.getElementById('menu-overlay');
+    mnav.classList.toggle('actva');
+    var mnav = document.getElementById('toggle-icon');
+    mnav.classList.toggle('actva');
+}

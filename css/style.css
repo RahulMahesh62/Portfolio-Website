@@ -586,7 +586,7 @@ hr {
 .skillpara p {
     text-align: justify;
     font-family: 'Mulish', sans-serif;
-    font-size: 1.35rem;
+    font-size: 1.2rem;
     margin: 10px;
     color: #ffffff;
 }
@@ -601,7 +601,7 @@ hr {
 
 .tech-grid {
     display: flex;
-    margin: 40px 20px 20px 20px;
+    margin: 60px 20px 20px 20px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -1093,6 +1093,79 @@ footer .sicons img {
     border-radius: 50px;
     margin: 10px 10% 15px 10%;
     background-color: rgba(255, 255, 255, 0.07);
+}
+
+
+/* Mobile Nav */
+
+#menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    opacity: 1;
+    align-items: center;
+    overflow-y: auto;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#menu-overlay ul {
+    position: relative;
+}
+
+#menu-overlay ul li {
+    position: relative;
+    text-align: center;
+    display: block;
+}
+
+#menu-overlay ul li a {
+    position: relative;
+    font-size: 2.4em;
+    margin: 10px 0px;
+    display: inline-block;
+}
+
+#menu-overlay.actva {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+#toggle-icon {
+    position: fixed;
+    cursor: pointer;
+    top: 12px;
+    left: 20px;
+    z-index: 10;
+    font-size: 225%;
+}
+
+#toggle-icon.actva::before {
+    content: '🥯';
+}
+
+@media (max-width: 550px) {
+    #toggle-icon {
+        top: 17px;
+        left: 10px;
+        font-size: 175%;
+    }
 }
 
 
