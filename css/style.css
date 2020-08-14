@@ -404,16 +404,6 @@ section {
 }
 
 
-/* HR */
-
-hr {
-    border: dotted #eeeeee 6px;
-    border-bottom: none;
-    width: 3%;
-    margin: 40px auto;
-}
-
-
 /* Landing section */
 
 #landing {
@@ -557,6 +547,7 @@ hr {
 }
 
 .skill {
+    background-color: rgba(255, 255, 255, .04);
     border: 2px solid transparent;
     margin: 10px 5px;
     width: 28%;
@@ -724,16 +715,34 @@ hr {
     padding: 10px 25px;
     border-radius: 50px;
     color: #16a085;
+    transition: 0.1s ease;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+    -webkit-transition: 0.1s ease;
+    -moz-transition: 0.1s ease;
+    -ms-transition: 0.1s ease;
+    -o-transition: 0.1s ease;
+}
+
+.filter {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
 }
 
 .snav a.actv {
     background-color: #16a085;
     border-color: #16a085;
     color: #fff;
+    transition: 0.1s ease;
+    -webkit-transition: 0.1s ease;
+    -moz-transition: 0.1s ease;
+    -ms-transition: 0.1s ease;
+    -o-transition: 0.1s ease;
 }
 
 .imgcont div {
@@ -1194,7 +1203,7 @@ footer .sicons img {
 }
 
 #f2 {
-    padding: 0px 12px 7px 12px;
+    padding: 10px 12px;
 }
 
 .ftrbox {
@@ -1291,6 +1300,15 @@ footer .sicons img {
     font-size: 225%;
 }
 
+#toggle-icon.open {
+    position: fixed;
+    cursor: pointer;
+    top: 12px;
+    left: 20px;
+    z-index: 11000;
+    font-size: 225%;
+}
+
 @media (max-width: 550px) {
     #toggle-icon {
         top: 17px;
@@ -1332,12 +1350,8 @@ footer .sicons img {
         color: #e4e3e3;
         text-align: center;
     }
-    .rf {
-        display: block;
-        width: 100%;
-    }
     .rf img {
-        display: block;
+        display: none;
     }
     #dgbtn {
         display: block;
@@ -1459,11 +1473,10 @@ footer .sicons img {
         text-align: justify;
     }
     .rf {
-        display: block;
-        width: 100%;
+        display: none;
     }
     .rf img {
-        display: block;
+        display: none;
     }
     #home {
         margin: 10px 0px;
