@@ -119,7 +119,6 @@ body {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
-    opacity: 1;
     width: 100%;
     height: 110%;
     position: fixed !important;
@@ -137,7 +136,7 @@ body {
     display: block;
     width: 100%;
     height: 150%;
-    background: #24242b;
+    background: #2C2C54;
     position: fixed;
     z-index: -1;
     top: 0;
@@ -845,12 +844,6 @@ textarea.input {
     border-radius: 22px;
     resize: none;
     overflow-y: auto;
-}
-
-.subtitle {
-    font-weight: 200;
-    margin-top: 5px;
-    text-align: center;
 }
 
 .input-container label {

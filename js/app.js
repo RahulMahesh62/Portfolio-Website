@@ -40,11 +40,11 @@ particlesJS("particles-js", {
         },
         "line_linked": {
             "enable": true,
-            "opacity": 0.2
+            "opacity": 0.22
         },
         "move": {
             "enable": true,
-            "speed": 1,
+            "speed": 1.1,
             "direction": "none",
             "random": true,
             "straight": false,
