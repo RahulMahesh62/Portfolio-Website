@@ -136,7 +136,7 @@ body {
     display: block;
     width: 100%;
     height: 150%;
-    background: #2C2C54;
+    background: #2A2B2E;
     position: fixed;
     z-index: -1;
     top: 0;
@@ -732,14 +732,69 @@ hr {
     color: #fff;
 }
 
+.imgcont {
+    background-color: crimson;
+}
+
 .imgcont div {
     display: inline-block;
 }
 
-.imgcont img {
+.desc {
     margin: 6px;
     width: 400px;
     height: 250px;
+    position: relative;
+    cursor: pointer;
+}
+
+.desc:hover .description {
+    height: 250px;
+}
+
+.desc img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    width: 400px;
+    height: 0px;
+    background: #218c74;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+}
+
+.descp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 45%;
+    margin: 50px auto 0px auto;
+}
+
+.desclink img {
+    display: inline-block;
+    margin: 10px auto;
+}
+
+#dlink {
+    height: 35px;
+    width: 35px;
+    margin: 5px;
 }
 
 
@@ -1421,14 +1476,18 @@ footer .sicons img {
         display: block;
         width: 80%;
     }
-    .imgcont div {
-        display: block;
+    .imgcont {
         width: 100%;
     }
-    .imgcont img {
+    .desc {
+        display: block;
         margin: 8px;
         width: 80%;
         height: 80%;
+    }
+    .description {
+        width: 100%;
+        height: 0%;
     }
     .form {
         width: 100%;
