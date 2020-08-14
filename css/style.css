@@ -1452,6 +1452,9 @@ footer .sicons img {
     nav {
         display: none;
     }
+    #landing {
+        height: 90vh;
+    }
     .lf {
         display: block;
         width: 100%;
