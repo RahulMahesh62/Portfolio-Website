@@ -517,7 +517,7 @@ section {
 .ml9 .letter {
     transform-origin: 50% 100%;
     display: inline-block;
-    line-height: 1em;
+    line-height: 0.5em;
 }
 
 
@@ -1467,6 +1467,7 @@ footer .sicons img {
     }
     #text2 {
         text-align: center;
+        margin: 7px auto;
     }
     #text3 {
         display: none;
