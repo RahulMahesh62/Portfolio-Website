@@ -466,6 +466,7 @@ section {
 
 #text2 {
     font-size: 2.7rem;
+    font-weight: 700;
     color: #e7305b;
 }
 
@@ -504,7 +505,6 @@ section {
 
 .ml9 {
     position: relative;
-    font-weight: 100;
     font-size: 0.2em;
 }
 
