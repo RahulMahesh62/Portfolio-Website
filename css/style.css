@@ -1293,6 +1293,7 @@ footer .sicons img {
 
 #toggle-icon {
     position: fixed;
+    color: #fff;
     cursor: pointer;
     top: 12px;
     left: 20px;
