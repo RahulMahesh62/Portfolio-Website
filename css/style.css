@@ -10,6 +10,28 @@ body {
     height: 100%;
 }
 
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    width: 10px;
+    background: #2A2B2E;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #20bf6b;
+    width: 0;
+    height: 10%;
+    transform: 0.5s ease;
+    -webkit-transform: 0.5s ease;
+    -moz-transform: 0.5s ease;
+    -ms-transform: 0.5s ease;
+    -o-transform: 0.5s ease;
+    cursor: pointer;
+}
 
 /* Preloader */
 
