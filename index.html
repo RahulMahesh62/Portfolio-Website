@@ -397,25 +397,6 @@
     <script src="./js/particles.js" type="text/javascript"></script>
     <script src="./js/app.js" type="text/javascript"></script>
     <script src="./js/script.js" type="text/javascript"></script>
-    <script>
-        $("#submit-form").submit((e) => {
-            e.preventDefault()
-            $.ajax({
-                url: "https://script.google.com/macros/s/AKfycbxAH8g4nT_lUOFZnbVlG9nnyjEzbhuIEkxrORka/exec",
-                data: $("#submit-form").serialize(),
-                method: "post",
-                success: function(response) {
-                    alert("Email sent successfully")
-                    window.location.reload()
-                        //window.location.href="https://google.com"
-                },
-                error: function(err) {
-                    alert("Something Error")
-
-                }
-            })
-        })
-    </script>
 </body>
 
 </html>
