@@ -569,15 +569,20 @@ section {
 }
 
 .skill {
-    background-color: rgba(255, 255, 255, .04);
+    background-color: rgba(255, 255, 255, .029);
     border: 2px solid transparent;
+    border-radius: 25px;
     margin: 10px 5px;
     width: 28%;
     height: auto;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
 
 .skill:hover {
-    border: 2px solid #e7305b;
+    border: 3px solid #e7305b;
 }
 
 .skimg {
