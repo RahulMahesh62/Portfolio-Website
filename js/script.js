@@ -21,3 +21,8 @@ $('#menu-overlay li').on('click', function() {
     // $("#toggle-icon").addClass("open");
     $('#menu-overlay').toggleClass('actva').show();
 });
+
+VanillaTilt.init(document.querySelectorAll(".skill"), {
+    max: 25,
+    speed: 450,
+});
