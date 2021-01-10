@@ -693,8 +693,8 @@ section {
 }
 
 .tool img {
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
 }
 
 .tool img:hover {
